@@ -4,5 +4,8 @@
   "version": "1.0.0",
   "description": "Bla",
   "main": "src/index.js",
-  "author": "Bruon"
+  "author": "Bruon",
+  "scripts": {
+    "test": "echo ok"
+  }
 }
