@@ -1,0 +1,38 @@
+Arguments: 
+  /Users/bruno.nascimento/.nvm/versions/node/v8.11.3/bin/node /Users/bruno.nascimento/.nvm/versions/node/v8.11.3/bin/yarn install
+
+PATH: 
+  /Users/bruno.nascimento/.nvm/versions/node/v8.11.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/bruno.nascimento/Documents/testci/package.json: Unexpected token } in JSON at position 117
+      at JSON.parse (<anonymous>)
+      at /Users/bruno.nascimento/.nvm/versions/node/v8.11.3/lib/node_modules/yarn/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/Users/bruno.nascimento/.nvm/versions/node/v8.11.3/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /Users/bruno.nascimento/.nvm/versions/node/v8.11.3/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "TesteCI",
+    "version": "1.0.0",
+    "description": "Bla",
+    "main": "src/index.js",
+    "author": "Bruon",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
